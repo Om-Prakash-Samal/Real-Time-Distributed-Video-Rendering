@@ -72,6 +72,8 @@ if __name__ == "__main__":
         audio=False
     )
     final_par.close()
+    print("Total segments:", len(segments))
 
     print(f"Sequential time: {seq_time:.2f} seconds")
     print(f"Parallel time: {par_time:.2f} seconds")
+
